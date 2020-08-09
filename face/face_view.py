@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 
 # 指定存放图片的路径
-path = './pic'
+path = './data/pic'
 # 读取像素数据
 data = np.loadtxt('./data/cnn_data.csv')
 

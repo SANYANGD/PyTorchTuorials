@@ -173,8 +173,8 @@ def train(train_dataset, val_dataset, batch_size, epochs, learning_rate, wt_deca
 
 def main():
     # 数据集实例化(创建数据集)
-    train_dataset = FaceDataset(root='./pic_train')
-    val_dataset = FaceDataset(root='./pic_val')
+    train_dataset = FaceDataset(root='./data/pic_train')
+    val_dataset = FaceDataset(root='./data/pic_val')
     # 超参数可自行指定
     model = train(train_dataset, val_dataset, batch_size=128, epochs=100, learning_rate=0.1, wt_decay=0)
     # 保存模型

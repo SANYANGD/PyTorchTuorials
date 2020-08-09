@@ -31,8 +31,8 @@ def data_label(path):
 
 def main():
     # 指定文件夹路径
-    train_path = './pic_train'
-    val_path = './pic_val'
+    train_path = './data/pic_train'
+    val_path = './data/pic_val'
     data_label(train_path)
     data_label(val_path)
 
