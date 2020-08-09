@@ -1,3 +1,6 @@
 # PyTorchTuorials
 
-## 学习PyTorch 
+## **学习PyTorch**
+
+### pip install -i https://pypi.tuna.tsinghua.edu.cn/simple ***
+### git clone https://github.com/MorvanZhou/PyTorch-Tutorial.git
